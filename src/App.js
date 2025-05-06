@@ -34,7 +34,7 @@ function App() {
     <div>
       <h2>Dictionary App</h2>
       <form onSubmit={handleSubmit}>
-        <input value={input} onChange={(e) => setInput(e.target.value)} required type="text" placeholder="Search for a word..." />
+        <input value={input} onChange={(e) => setInput(e.target.value)} type="text" placeholder="Search for a word..." />
         <button type="submit">Search</button>
       </form>
       <h3>Definition:</h3>
